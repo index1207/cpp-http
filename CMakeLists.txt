@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.20)
+project(Http)
+
+set(CMAKE_CXX_STANDARD 20)
+
+find_package(netcpp CONFIG REQUIRED)
+
+add_subdirectory(src)
